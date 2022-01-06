@@ -3,40 +3,65 @@
         margin: 0;
     }
     
-    h1 {
+    p {
+        font-size: 18px;
+        line-height: 130%;
+        padding-bottom: 10px;
+    }
+    
+    a {
+        padding-bottom: 10px;
+    }
+    
+    h2 {
         font-size: 48px;
-        font-weight: bold;
+        font-weight: 900;
+    }
+    
+    h3 {
+        font-size: 24px;
+        font-weight: 700;
     }
     
     .flexible-elements {
         display: flex;
-        margin-bottom: 50px;
+        margin-bottom: 100px;
+        padding: 0 10%;
     }
     
     .top-section img {
         width: 60%;
+        padding-left: 10%;
+    }
+    
+    .padding-top-section-text {
+        padding-right: 20%;
     }
     
     .half-width {
         width: 50%;
-        padding: 0 5%;
     }
     
     .orange-color {
         color: orange;
     }
     
-    .top-section-left h1 {
-        font-size: 60px;
+    .tomato-color {
+        color: tomato;
+    }
+    
+    .blue-color {
+        color: #4B51E2;
     }
     
     .top-section-left {
         font-family: 'Yeseva One', cursive;
         border-left: 10px solid orange;
-        border-image-slice: 1;
         border-radius: 5px;
         margin-top: 20%;
         padding-left: 50px;
+        font-size: 50px;
+        font-weight: 300;
     }
     
     .global-button {
@@ -45,5 +70,112 @@
         color: white;
         background-color: tomato;
         border-radius: 5px;
-        padding: 10px 40px;
+        padding: 15px 40px;
+    }
+    
+    .second-section {
+        margin-bottom: 100px;
+    }
+    
+    .m-bold-center {
+        font-weight: 900;
+        text-align: center;
+    }
+    
+    .one-third {
+        display: flex;
+        padding: 0 5%;
+    }
+    
+    .one-third img {
+        width: 40%;
+    }
+    
+    .one-third-first {
+        width: 30%;
+        margin: 0 5%;
+        border-radius: 26px;
+        padding: 30px;
+        background-color: #4f9da626;
+    }
+    
+    .one-third-second {
+        width: 30%;
+        margin: 0 5%;
+        border-radius: 26px;
+        padding: 30px;
+        background-color: #ff595926;
+    }
+    
+    .one-third-third {
+        width: 30%;
+        margin: 0 5%;
+        border-radius: 26px;
+        padding: 30px;
+        background-color: #FFF4D6;
+    }
+    
+    .one-third-section img {
+        width: 40%;
+    }
+    
+    .motivatinal-section img {
+        max-width: 70%
+    }
+    
+    .fourty-percent {
+        width: 40%;
+    }
+    
+    .sixty-percent {
+        width: 60%;
+    }
+    
+    .sixty-percent p {
+        padding-right: 20%;
+    }
+    
+    .features img {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 70%;
+    }
+    
+    .feature-lists {
+        display: flex;
+    }
+    
+    .feature-lists img {
+        width: 90%;
+    }
+    
+    .thirty-percent {
+        width: 20%;
+    }
+    
+    .seventy-percent {
+        width: 70%;
+    }
+    
+    #hire-me {
+        margin-top: 2%;
+        text-align: center;
+    }
+    
+    footer {
+        background-color: #0B0D17;
+        padding: 30px 0;
+    }
+    
+    footer h1 {
+        text-align: center;
+        color: white;
+        font-family: 'Yeseva One', cursive;
+        font-style: italic;
+    }
+    
+    footer p {
+        text-align: center;
+        color: white;
     }
